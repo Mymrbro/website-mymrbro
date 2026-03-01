@@ -6,7 +6,7 @@ function Home() {
       {/* Banner Principal */}
       <section className="hero">
         <h1>Mymrbro Sobremesas</h1>
-        <p>A maior Fábrica e Distribuidora de Felicidade em Formato de Doce.</p>
+        <p>A Fábrica e Distribuidora de Felicidade em Formato de Doce.</p>
       </section>
 
       {/* Texto de Apresentação (Lero-Lero) */}
