@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- SEO -->
     <meta
       name="description"
       content="A MyBrow é uma fábrica e distribuidora de sobremesas premium, especializada em petit gâteau, tortas e pudins para restaurantes e parceiros comerciais."
     />
 
-    <!-- Open Graph (redes sociais) -->
+    <!-- Canonical (importante para SEO) -->
+    <link rel="canonical" href="https://mybrosobremesas.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mybrosobremesas.vercel.app/" />
     <meta
       property="og:title"
       content="MyBrow | Fábrica e Distribuidora de Sobremesas Premium"
@@ -18,11 +24,29 @@
       property="og:description"
       content="Sobremesas premium com qualidade, sabor e padronização para restaurantes e estabelecimentos parceiros."
     />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/src/assets/images/557660865_18401436070187045_8902962697520120334_n.jpg" />
+    <meta
+      property="og:image"
+      content="https://mybrosobremesas.vercel.app/mybrow-sobremesas-premium.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="MyBrow | Fábrica e Distribuidora de Sobremesas Premium"
+    />
+    <meta
+      name="twitter:description"
+      content="Sobremesas premium com qualidade, sabor e padronização para restaurantes e estabelecimentos parceiros."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mybrosobremesas.vercel.app/mybrow-sobremesas-premium.jpg"
+    />
 
     <title>MyBrow | Fábrica e Distribuidora de Sobremesas Premium</title>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
