@@ -5,7 +5,7 @@ function Home() {
     <div className="home-container">
       {/* Banner Principal */}
       <section className="hero">
-        <h1>Mymrbro Sobremesas</h1>
+        <h1>Mybro Sobremesas</h1>
         <p>A Fábrica e Distribuidora de Felicidade em Formato de Doce.</p>
       </section>
 
@@ -13,7 +13,7 @@ function Home() {
       <section className="about-factory">
         <h2>Nossa Produção Industrial</h2>
         <p>
-          Fundada com o objetivo de revolucionar o mercado de *food service*, a Mymrbro é especialista 
+          Fundada com o objetivo de revolucionar o mercado de *food service*, a Mybro é especialista 
           na fabricação em larga escala de Pudins artesanais e Petit Gateaus premium. Nossa fábrica 
           utiliza tecnologia de ponta para garantir que cada sobremesa mantenha a textura perfeita 
           e o sabor caseiro que seus clientes exigem.
@@ -28,7 +28,7 @@ function Home() {
 
       {/* Sessão Extra para dar Scroll (Rolar a página) */}
       <section className="distribuicao">
-        <h3>Por que ser um parceiro Mymrbro?</h3>
+        <h3>Por que ser um parceiro Mybro?</h3>
         <ul>
           <li><strong>Pudim de Leite Condensado:</strong> Receita exclusiva com calda caramelizada no ponto exato.</li>
           <li><strong>Petit Gateau:</strong> Recheio cremoso e explosivo, desenvolvido para o forno rápido.</li>
