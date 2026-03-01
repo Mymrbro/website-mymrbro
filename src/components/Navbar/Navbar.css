@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 80px;
+  background-color: #333;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Esconde o hambúrguer no PC */
+.hamburguer {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburguer div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/* --- RESPONSIVIDADE (CELULAR) --- */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 80px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    padding-top: 50px;
+    z-index: 100;
+  }
+
+  .nav-links.active {
+    transform: translateX(0%);
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  /* Animação do X quando abre */
+  .line1.toggle { transform: rotate(-45deg) translate(-5px, 6px); }
+  .line2.toggle { opacity: 0; }
+  .line3.toggle { transform: rotate(45deg) translate(-5px, -6px); }
+}
