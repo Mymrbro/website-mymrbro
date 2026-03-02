@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
-import Home from './pages/Home/Home';
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 
+import Home from './pages/Home/Home';
 import Produtos from './pages/Produtos/Produtos'; 
 import Sobre from './pages/Sobre/Sobre';  
 import Contato from './pages/Contato/Contato'; 
@@ -21,6 +22,7 @@ function App() {
           <Route path="*" element={<h1>Página não encontrada (404)</h1>} />
         </Routes>
       </main>
+      <WhatsAppButton />
       <Footer />
     </Router>
   );
